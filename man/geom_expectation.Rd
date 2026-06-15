@@ -2,7 +2,7 @@
 % Please edit documentation in R/geom_expectation.R
 \name{geom_expectation}
 \alias{geom_expectation}
-\title{Summarise observed clade sizes against the geometric expectation}
+\title{Summarize observed clade sizes against the geometric expectation}
 \usage{
 geom_expectation(clade_sizes)
 }
@@ -18,7 +18,7 @@ A one-row \code{data.frame} with: \code{n_clades},
   \code{prop_singleton}, and \code{expected_prop_singleton} (= \code{geom_p}).
 }
 \description{
-Summarises the observed distribution of clade sizes and compares it to a
+Summarizes the observed distribution of clade sizes and compares it to a
 homogeneous birth-death (geometric) null fitted with the same mean clade
 size. Under that null the geometric parameter is \eqn{p = 1 / \bar{K}} (the
 MLE of Nee et al. 1992) and the population standard deviation of clade sizes

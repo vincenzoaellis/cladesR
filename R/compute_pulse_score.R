@@ -141,7 +141,7 @@ compute_pulse_score <- function(tree, slice_ages,
 
 
   ####################################
-  ## SUMMARISE PER SPECIES          ##
+  ## SUMMARIZE PER SPECIES          ##
   ####################################
 
   summary_df <- do.call(rbind, lapply(split(long_df, long_df$species), function(d) {

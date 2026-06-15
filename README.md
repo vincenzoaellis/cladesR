@@ -112,10 +112,10 @@ subset(clade_tests(furn5$clade_sizes), too_many)
 ages   <- c(15, 10, 5)
 slices <- lapply(ages, function(a) extract_clade_sizes(phy, age_before_present = a))
 
-# Show the tree (tip labels hidden) with each slice in its own colour, and the
+# Show the tree (tip labels hidden) with each slice in its own color, and the
 # clade-defining nodes (the original-tree node rooting each clade, returned in
-# `$nodes`) coloured to match the slice that produced them.
-slice_cols <- c("#1b9e77", "#d95f02", "#7570b3")   # one colour per slice age
+# `$nodes`) colored to match the slice that produced them.
+slice_cols <- c("#1b9e77", "#d95f02", "#7570b3")   # one color per slice age
 H <- max(ape::node.depth.edgelength(phy))
 
 ape::plot.phylo(phy, show.tip.label = FALSE, edge.width = 0.4)
@@ -136,7 +136,7 @@ Each highlight sits at the node rooting a clade: multi-species clades appear at
 their crown (just inside the slice), while singletons (clades of one
 species/lineage) are marked at their tip. The slices are drawn youngest-last, and
 an older singleton falls on the same tip as its younger counterpart, so the
-singletons visible at the tips all show the 5 Ma colour (the four singletons at
+singletons visible at the tips all show the 5 Ma color (the four singletons at
 10 Ma are hidden beneath their 5 Ma equivalents).
 
 ``` r
@@ -157,7 +157,7 @@ compute_pulse_score(phy, slice_ages = ages)
 #> 2 Cranioleuca subcristata        3         3              1    9.519802 clade_001        TRUE ...
 #> ...
 
-# Visualise the clade assignments through time.
+# Visualize the clade assignments through time.
 plot_cladetracker(phy, slice_list = slices, slice_ages = ages)
 ```
 

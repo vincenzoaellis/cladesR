@@ -78,7 +78,7 @@ test_that("build_clade_table validates inputs", {
   expect_error(build_clade_table(list(list(foo = 1)), 1), "extract_clade_sizes")
 })
 
-test_that("ancestor_descendant_stats summarises adjacent slice pairs", {
+test_that("ancestor_descendant_stats summarizes adjacent slice pairs", {
   ages   <- c(1.5, 0.5)
   slices <- lapply(ages, function(a) extract_clade_sizes(fixed_tree, a))
   tab    <- build_clade_table(slices, ages)

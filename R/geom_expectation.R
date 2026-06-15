@@ -1,6 +1,6 @@
-#' Summarise observed clade sizes against the geometric expectation
+#' Summarize observed clade sizes against the geometric expectation
 #'
-#' Summarises the observed distribution of clade sizes and compares it to a
+#' Summarizes the observed distribution of clade sizes and compares it to a
 #' homogeneous birth-death (geometric) null fitted with the same mean clade
 #' size. Under that null the geometric parameter is \eqn{p = 1 / \bar{K}} (the
 #' MLE of Nee et al. 1992) and the population standard deviation of clade sizes

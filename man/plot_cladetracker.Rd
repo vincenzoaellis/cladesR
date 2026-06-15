@@ -40,13 +40,13 @@ element), each strictly between 0 and the tree height.}
 \item{connector_alpha, tree_alpha}{Opacity of the connector lines and the
 background tree.}
 
-\item{color_clades}{Logical; colour by oldest-slice lineage. Default
+\item{color_clades}{Logical; color by oldest-slice lineage. Default
 \code{FALSE}.}
 
-\item{heat_splits}{Logical; colour by number of descendant clades at the next
+\item{heat_splits}{Logical; color by number of descendant clades at the next
 slice. Default \code{FALSE}. Takes priority over \code{color_clades}.}
 
-\item{scale_by_slice}{Logical; when \code{heat_splits} is on, normalise the
+\item{scale_by_slice}{Logical; when \code{heat_splits} is on, normalize the
 split counts within each slice panel. Default \code{FALSE}.}
 
 \item{show_clade_labels}{Logical; label each triangle with its clade ID and
@@ -58,12 +58,12 @@ of each splitting triangle. Default \code{FALSE}.}
 \item{flip_triangles}{Logical; point triangle apices left instead of right.
 Default \code{FALSE}.}
 
-\item{tree_color, tree_linewidth}{Colour and line width of the background tree.}
+\item{tree_color, tree_linewidth}{Color and line width of the background tree.}
 
 \item{show_slice_ages}{Logical; label each panel with its slice age. Default
 \code{TRUE}.}
 
-\item{show_legend}{Logical; show the colour legend (when a colour mode is on).
+\item{show_legend}{Logical; show the color legend (when a color mode is on).
 Default \code{TRUE}.}
 
 \item{legend_title}{Logical; show the legend title. Default \code{TRUE}.}
@@ -76,19 +76,19 @@ Draws a multi-panel "clade tracker": for each time slice (oldest on the left)
 the phylogeny is collapsed into one triangle per clade, with triangle area
 scaled by clade size, and connector lines link each clade to its parent at
 the previous (older) slice. The full truncated tree is drawn faintly behind
-the oldest panel for context. This visualises how clades split, persist, or
+the oldest panel for context. This visualizes how clades split, persist, or
 diversify across slices --- the ancestor-descendant dynamics central to the
 diversification-pulse framework (Ricklefs 2014).
 }
 \details{
-Two optional colour modes (mutually exclusive; \code{heat_splits} wins if
+Two optional color modes (mutually exclusive; \code{heat_splits} wins if
 both are set):
 \itemize{
-  \item \code{color_clades = TRUE} colours triangles/connectors by the
+  \item \code{color_clades = TRUE} colors triangles/connectors by the
     oldest-slice lineage each clade descends from (Okabe-Ito palette).
-  \item \code{heat_splits = TRUE} colours by the number of descendant clades
+  \item \code{heat_splits = TRUE} colors by the number of descendant clades
     a clade splits into at the next slice (blue = passes through, red =
-    splits the most); \code{scale_by_slice} normalises this within each panel.
+    splits the most); \code{scale_by_slice} normalizes this within each panel.
 }
 }
 \examples{

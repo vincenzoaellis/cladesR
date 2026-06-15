@@ -1,7 +1,7 @@
-#' Summarise ancestor-descendant clade dynamics across adjacent time slices
+#' Summarize ancestor-descendant clade dynamics across adjacent time slices
 #'
 #' For a clade membership table produced by \code{\link{build_clade_table}},
-#' summarises the relationship between every parent clade at an older slice and
+#' summarizes the relationship between every parent clade at an older slice and
 #' its descendant clades at the next (younger) slice. This supports the
 #' Ricklefs (2014) test of whether the size of an ancestral clade predicts the
 #' sizes of its descendants: under a homogeneous birth-death process ancestor

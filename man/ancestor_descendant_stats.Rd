@@ -2,7 +2,7 @@
 % Please edit documentation in R/ancestor_descendant_stats.R
 \name{ancestor_descendant_stats}
 \alias{ancestor_descendant_stats}
-\title{Summarise ancestor-descendant clade dynamics across adjacent time slices}
+\title{Summarize ancestor-descendant clade dynamics across adjacent time slices}
 \usage{
 ancestor_descendant_stats(clade_table)
 }
@@ -28,7 +28,7 @@ A data frame with one row per parent clade per adjacent slice pair:
 }
 \description{
 For a clade membership table produced by \code{\link{build_clade_table}},
-summarises the relationship between every parent clade at an older slice and
+summarizes the relationship between every parent clade at an older slice and
 its descendant clades at the next (younger) slice. This supports the
 Ricklefs (2014) test of whether the size of an ancestral clade predicts the
 sizes of its descendants: under a homogeneous birth-death process ancestor

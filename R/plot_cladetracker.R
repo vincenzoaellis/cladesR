@@ -4,18 +4,18 @@
 #' the phylogeny is collapsed into one triangle per clade, with triangle area
 #' scaled by clade size, and connector lines link each clade to its parent at
 #' the previous (older) slice. The full truncated tree is drawn faintly behind
-#' the oldest panel for context. This visualises how clades split, persist, or
+#' the oldest panel for context. This visualizes how clades split, persist, or
 #' diversify across slices --- the ancestor-descendant dynamics central to the
 #' diversification-pulse framework (Ricklefs 2014).
 #'
-#' Two optional colour modes (mutually exclusive; \code{heat_splits} wins if
+#' Two optional color modes (mutually exclusive; \code{heat_splits} wins if
 #' both are set):
 #' \itemize{
-#'   \item \code{color_clades = TRUE} colours triangles/connectors by the
+#'   \item \code{color_clades = TRUE} colors triangles/connectors by the
 #'     oldest-slice lineage each clade descends from (Okabe-Ito palette).
-#'   \item \code{heat_splits = TRUE} colours by the number of descendant clades
+#'   \item \code{heat_splits = TRUE} colors by the number of descendant clades
 #'     a clade splits into at the next slice (blue = passes through, red =
-#'     splits the most); \code{scale_by_slice} normalises this within each panel.
+#'     splits the most); \code{scale_by_slice} normalizes this within each panel.
 #' }
 #'
 #' @param tree An ultrametric \code{phylo} object with branch lengths.
@@ -26,11 +26,11 @@
 #' @param tree_width,gap_width,triangle_width Panel layout widths.
 #' @param connector_alpha,tree_alpha Opacity of the connector lines and the
 #'   background tree.
-#' @param color_clades Logical; colour by oldest-slice lineage. Default
+#' @param color_clades Logical; color by oldest-slice lineage. Default
 #'   \code{FALSE}.
-#' @param heat_splits Logical; colour by number of descendant clades at the next
+#' @param heat_splits Logical; color by number of descendant clades at the next
 #'   slice. Default \code{FALSE}. Takes priority over \code{color_clades}.
-#' @param scale_by_slice Logical; when \code{heat_splits} is on, normalise the
+#' @param scale_by_slice Logical; when \code{heat_splits} is on, normalize the
 #'   split counts within each slice panel. Default \code{FALSE}.
 #' @param show_clade_labels Logical; label each triangle with its clade ID and
 #'   size. Default \code{FALSE}.
@@ -38,10 +38,10 @@
 #'   of each splitting triangle. Default \code{FALSE}.
 #' @param flip_triangles Logical; point triangle apices left instead of right.
 #'   Default \code{FALSE}.
-#' @param tree_color,tree_linewidth Colour and line width of the background tree.
+#' @param tree_color,tree_linewidth Color and line width of the background tree.
 #' @param show_slice_ages Logical; label each panel with its slice age. Default
 #'   \code{TRUE}.
-#' @param show_legend Logical; show the colour legend (when a colour mode is on).
+#' @param show_legend Logical; show the color legend (when a color mode is on).
 #'   Default \code{TRUE}.
 #' @param legend_title Logical; show the legend title. Default \code{TRUE}.
 #' @return A \code{ggplot} object.
