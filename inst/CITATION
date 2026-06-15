@@ -1,0 +1,56 @@
+citHeader("To cite cladesR in publications, please cite the package and the foundational methods papers (Nee et al. 1992; Ricklefs 2003, 2005, 2014):")
+
+bibentry(
+  bibtype = "Manual",
+  title   = "cladesR: Identify and Investigate Clades That Depart from Birth-Death Expectations",
+  author  = person("Vincenzo A.", "Ellis"),
+  year    = "2026",
+  note    = "R package version 0.0.0.9000",
+  url     = "https://github.com/vincenzoaellis/cladesR"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "Tempo and mode of evolution revealed from molecular phylogenies",
+  author  = c(person("Sean", "Nee"),
+              person("Arne O.", "Mooers"),
+              person("Paul H.", "Harvey")),
+  journal = "Proceedings of the National Academy of Sciences USA",
+  year    = "1992",
+  volume  = "89",
+  pages   = "8322--8326",
+  doi     = "10.1073/pnas.89.17.8322"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "Global diversification rates of passerine birds",
+  author  = person("Robert E.", "Ricklefs"),
+  journal = "Proceedings of the Royal Society B",
+  year    = "2003",
+  volume  = "270",
+  pages   = "2285--2291",
+  doi     = "10.1098/rspb.2003.2489"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "Small clades at the periphery of passerine morphological space",
+  author  = person("Robert E.", "Ricklefs"),
+  journal = "The American Naturalist",
+  year    = "2005",
+  volume  = "165",
+  pages   = "651--659",
+  doi     = "10.1086/429676"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "Reconciling diversification: random pulse models of speciation and extinction",
+  author  = person("Robert E.", "Ricklefs"),
+  journal = "The American Naturalist",
+  year    = "2014",
+  volume  = "184",
+  pages   = "268--276",
+  doi     = "10.1086/676642"
+)

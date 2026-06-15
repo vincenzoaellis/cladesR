@@ -1,0 +1,31 @@
+Package: cladesR
+Type: Package
+Title: Identify and Investigate Clades That Depart from Birth-Death Expectations
+Version: 0.0.0.9000
+Authors@R:
+    person("Vincenzo A", "Ellis", email = "vaellis@udel.edu",
+           role = c("aut", "cre"))
+Maintainer: Vincenzo A. Ellis <vaellis@udel.edu>
+Description: Tools for comparing the sizes of same-aged clades to the geometric
+    distribution expected under a homogeneous birth-death (speciation-extinction)
+    process, flagging clades that contain more or fewer species than expected,
+    and investigating how anomalous clades differ. The geometric progeny-size
+    model and the conditional broken-stick null follow Nee, Mooers & Harvey
+    (1992) <doi:10.1073/pnas.89.17.8322>; the clade-size diagnostics and the
+    diversification-pulse framing follow Ricklefs (2003, 2005, 2014).
+License: GPL-2
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports:
+    ape,
+    phytools,
+    stats
+Suggests:
+    clootl,
+    ggplot2,
+    lme4,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
+URL: https://github.com/vincenzoaellis/cladesR
+BugReports: https://github.com/vincenzoaellis/cladesR/issues

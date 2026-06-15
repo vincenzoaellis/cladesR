@@ -1,0 +1,20 @@
+# R session / build artifacts
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.tar.gz
+*.Rcheck/
+/doc/
+/Meta/
+
+# Local-only working files (kept on disk, never pushed)
+CLAUDE.md
+logs/
+
+# Reference PDFs (copyrighted papers — keep local only)
+*.pdf
+
+# Superseded scratch scripts (fully migrated into R/)
+clade analysis functions.R
+testing clade analyses.R

@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^CLAUDE\.md$
+^.*\.pdf$
+^clade analysis functions\.R$
+^testing clade analyses\.R$
+^logs$
+^README-.*\.png$
+^doc$
+^Meta$
+^\.git$
+^\.gitignore$
