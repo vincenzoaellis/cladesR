@@ -88,6 +88,8 @@ sd_sim_test(slice$clade_sizes)
 clade_rank_data(slice$clade_sizes, plot = TRUE)
 ```
 
+<img src="man/figures/README-clade-rank.png" width="100%" />
+
 ### A real clade that does not fit the expectations of the homogeneous birth-death model (the avian family Furnariidae, extracted from the `clootl` R package)
 
 ``` r
@@ -160,6 +162,8 @@ compute_pulse_score(phy, slice_ages = ages)
 # Visualize the clade assignments through time.
 plot_cladetracker(phy, slice_list = slices, slice_ages = ages)
 ```
+
+<img src="man/figures/README-cladetracker.png" width="100%" />
 
 ### Partitioning trait variance across clade levels
 
